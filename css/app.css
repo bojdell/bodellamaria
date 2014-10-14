@@ -1,0 +1,15 @@
+.background {
+	background-image: url("../res/mountains1.jpg");
+	height: 1000px;
+	padding: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.alignText_C {
+	text-align: center;
+}
+
+.app {
+	margin: 20px;
+}
