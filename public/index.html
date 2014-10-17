@@ -18,9 +18,9 @@
 	<nav class="navbar navbar-default fixed" id="main-menu" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <a href="/"><div class="logo">&nbsp;</div></a>
+      <!-- <a href="/"><div class="logo">&nbsp;</div></a> -->
     </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
           <a href="/services">
@@ -58,21 +58,21 @@
           </a>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </nav>
 
 <div class="app" ng-app="">
-	<div class="panel panel-default">
+	<!-- <div class="panel panel-default">
 	  <div class="panel-body">Look, I'm in a panel!</div>
-	</div>
+	</div> -->
 
 	<div class="panel panel-default">
 	    <div class="panel-heading">
         <h1 class="panel-title">Quote of the Day</h1>
 	    </div>
 	    <div class="panel-body" ng-controller="QODController">
-        {{ QOD }}
+        "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
       </div>
 	</div>
 
