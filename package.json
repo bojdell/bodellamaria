@@ -1,0 +1,20 @@
+{
+  "name": "bodellamaria",
+  "version": "1.0.0",
+  "description": "My first personal website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bojdell/bodellamaria.git"
+  },
+  "dependencies": {
+    "express" : "~3.4",
+    "mongodb": "~2.0"
+  },
+  "author": "Bodecker DellaMaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bojdell/bodellamaria/issues"
+  },
+  "homepage": "https://github.com/bojdell/bodellamaria"
+}
