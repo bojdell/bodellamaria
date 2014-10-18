@@ -6,12 +6,12 @@ var MongoClient = require('mongodb').MongoClient
 
 // Connection URL
 var url = 'mongodb://localhost:27017/quotesdb';
+var connection = null;
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, db) {
 	assert.equal(null, err);
 	console.log("Connected correctly to server");
-
-	db.close();
+	connection = db;
 });
 
 app.use(express.static(__dirname + '/public'));
@@ -20,9 +20,10 @@ app.get("/", function (req, res) {
 	res.redirect("/index.html");
 });
 
-// app.get("/api/dailyquote", function (req, res) {
-// 	res.send()
-// });
+app.get("/api/quotes", function (req, res) {
+    var collection = connection.get('quotes');
+	res.send(collection.find({}))
+});
 
 app.listen(80);
 console.log("Listening on port 80");
