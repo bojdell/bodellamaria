@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Bodecker DellaMaria - Favorite Quotes</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/app.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/index_controllers.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default fixed" id="main-menu" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+    </div>
+  </div>
+</nav>
+
+<div class="app" ng-app="">
+
+	<div class="grid">
+		<div class="panel panel-default">
+		    <div class="panel-heading">
+	        <h1 class="panel-title">Quote of the Day</h1>
+		    </div>
+		    <div class="panel-body" ng-controller="QODController">
+	        "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
+	      </div>
+		</div>
+	</div>
+
+		<div class="breadcrumb alignText_C">&copy; 2014 Bodecker DellaMaria</div>
+	</div>
+</body>
+</html>
