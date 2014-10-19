@@ -25,8 +25,11 @@ app.get("/quotes", function (req, res) {
 });
 
 app.get("/api/quotes", function (req, res) {
-    var quotes = connection.get('quotes');
-	res.send(quotes.find({}))
+    var collection = connection.collection('quotes');
+    collection.find({}).toArray(function(err, docs) {
+        assert.equal(err, null);
+	res.send(docs);
+    });
 });
 
 app.listen(80);
