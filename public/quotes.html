@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="js/index_controllers.js"></script>
+  <script src="js/quotes_controllers.js"></script>
 </head>
 <body>
 
@@ -18,14 +18,13 @@
 </nav>
 
 <div class="app" ng-app="">
-
-	<div class="grid">
-		<div class="panel panel-default">
+	<div class="grid" ng-controller="QuotesController">
+		<div class="panel panel-default" ng-repeat="quote in quotes">
 		    <div class="panel-heading">
-	        <h1 class="panel-title">Quote of the Day</h1>
+	        <h1 class="panel-title">Quote</h1>
 		    </div>
-		    <div class="panel-body" ng-controller="QODController">
-	        "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
+		    <div class="panel-body">
+	        "{{ quote.text }}" - <a ng-href="{{ quote.source }}"> {{ quote.person }}</a>
 	      </div>
 		</div>
 	</div>
