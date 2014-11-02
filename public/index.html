@@ -5,19 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-  <script src="js/index_controllers.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/cloudgrid.js"></script>
 </head>
 <body>
-
 	<nav class="navbar navbar-default fixed" id="main-menu" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <!-- <a href="/"><div class="logo">&nbsp;</div></a> -->
+      
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="/home">
+          <a href="/">
             Home
           </a>
         </li>
@@ -32,41 +33,19 @@
 </nav>
 
 <div class="app" ng-app="">
-	<!-- <div class="panel panel-default">
-	  <div class="panel-body">Look, I'm in a panel!</div>
-	</div> -->
+  <div ng-controller="QODController">
+  	<div class="panel panel-default gridItem" data-grid-columns="11" data-grid-rows="12">
+  	    <div class="panel-heading">
+          <h1 class="panel-title">Quote of the Day</h1>
+  	    </div>
+  	    <div class="panel-body">
+          "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
+        </div>
+  	</div>
+  </div>
 
-	<div class="panel panel-default">
-	    <div class="panel-heading">
-        <h1 class="panel-title">Quote of the Day</h1>
-	    </div>
-	    <div class="panel-body" ng-controller="QODController">
-        "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
-      </div>
-	</div>
-
-	<!-- <div class="panel">
-		<h2 class="panel-heading">Panel 3</h2>
-			<p>Is about awesome things</p>
-		<p class = "panel-footer">Three</P>
-	</div>
-
-	<div class="glyphicon-send"></div>
-
-	<table class="table-responsive">
-		<tr>
-			<th>Header 1</th>
-			<th>Header 2</th>
-			<th>Header 3</th>
-		</tr>
-		<tr>
-			<td>Row 1</td>
-			<td>Row 2</td>
-			<td>Row 3</td>
-		</tr>
-	</table> -->
-
-		<div class="breadcrumb alignText_C">&copy; 2014 Bodecker DellaMaria</div>
-	</div>
+	<div class="breadcrumb alignText_C">&copy; 2014 Bodecker DellaMaria</div>
+</div>
+<script src="js/index_controllers.js"></script>
 </body>
 </html>

@@ -175,7 +175,7 @@
         var columnMatchesCursor = 0;
         var columnCount = this._columns.length;
         var currentColumnHeight = this._columns[this._currentColumn].height;
-        var requiredColumns = $.data(child, 'grid-columns') || 1;
+        var requiredColumns = $.data(child, 'grid-columns') || $(child).attr('data-grid-columns') || 1;
         var i;
 
         for (i=this._currentColumn; i < (columnCount + this._currentColumn); i++) {
@@ -386,8 +386,8 @@
      */
     CloudGridColumn.prototype.calculateElementHeight = function(child) {
         var gridOptions = this.grid.options;
-        var columns = $.data(child, 'grid-rows');
-        return columns * gridOptions.gridSize + gridOptions.gridGutter * (columns - 1);
+        var rows = $.data(child, 'grid-rows') || $(child).attr('data-grid-rows');
+        return rows * gridOptions.gridSize + gridOptions.gridGutter * (rows - 1);
     };
 
     /**

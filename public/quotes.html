@@ -5,8 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/quotes_controllers.js"></script>
+  <script src="js/cloudgrid.js"></script>
 </head>
 <body>
 
@@ -18,7 +20,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="/home">
+          <a href="/">
             Home
           </a>
         </li>
@@ -32,9 +34,9 @@
   </div>
 </nav>
 
-<div class="app" ng-app="">
-	<div class="grid" ng-controller="QuotesController">
-		<div class="panel panel-default" ng-repeat="quote in quotes">
+<div class="app" ng-app="quotesApp">
+	<div class="grid" ng-controller="QuotesCtrl">
+		<div class="panel panel-default gridItem" ng-repeat="quote in quotes" data-on-repeat data-grid-columns="{{  defaultColSize }}" data-grid-rows="{{ getRows(quote.text.length + quote.person.length + 5) }}">
 		    <div class="panel-heading">
 	        <h1 class="panel-title">Quote</h1>
 		    </div>
