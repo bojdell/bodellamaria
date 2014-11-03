@@ -2,7 +2,7 @@ var $grid = null;
 var gridUnitSize = 10;
 var gutterSize = 13;
 var defaultColumnSize = 12;
-var k = 0.5;
+var k = 1;
 var minRows = 6;
 
 $(window).on('resize', function() {
