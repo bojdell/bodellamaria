@@ -1,50 +1,40 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Bodecker DellaMaria</title>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/app.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="js/cloudgrid.js"></script>
+    <title>Bodecker DellaMaria</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/cloudgrid.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default fixed" id="main-menu" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      
+<div id="wrapper">
+    <div id="header">
+    <nav class="menuBar">
+        <a href="/"><div class="menuDot"><span class="menuDotCaption">Home</span></div></a>
+        <a href="/about"><div class="menuDot"><span class="menuDotCaption">About Me</span></div></a>
+        <a href="/projects"><div class="menuDot"><span class="menuDotCaption">Projects</span></div></a>
+        <a href="/music"><div class="menuDot"><span class="menuDotCaption">Music</span></div></a>
+        <a href="/quotes"><div class="menuDot"><span class="menuDotCaption">Favorite<br>Quotes</span></div></a>
+    </nav>
     </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="/">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="/quotes">
-            Quotes
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<div class="app" ng-app="">
-  <div ng-controller="QODController">
-  	<div class="panel panel-default gridItem" data-grid-columns="11" data-grid-rows="12">
-  	    <div class="panel-heading">
-          <h1 class="panel-title">Quote of the Day</h1>
-  	    </div>
-  	    <div class="panel-body">
-          "{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a>
+    <div id="content">
+    <div class="app" ng-app="">
+        <div ng-controller="QODController">
+        	<div class="panel panel-default">
+                <div class="panel-heading"><h1 class="panel-title">Quote of the Day</h1></div>
+                <div class="panel-body">"{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a></div>
+        	</div>
         </div>
-  	</div>
-  </div>
+    </div>
+    </div>
 
-	<div class="breadcrumb alignText_C">&copy; 2014 Bodecker DellaMaria</div>
+    <div id="footer">
+        <div class="alignText_C centerVert">&copy; 2014 Bodecker DellaMaria</div>
+    </div>
 </div>
 <script src="js/index_controllers.js"></script>
 </body>

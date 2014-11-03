@@ -1,20 +1,46 @@
 /*html {
-	height: 100%;
+	width: 100%;
 	background-color: #ffecd0;
 	background-image: linear-gradient(90deg, transparent 50%, white 50%), linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-size: 100% 100%, 100px 100px;
+	background: no-repeat center center fixed;
 }*/
 
-.background {
+/*.background {
 	background-image: url("../res/mountains1.jpg");
 	height: 1000px;
 	padding: 0;
 	background-size: contain;
 	background-repeat: no-repeat;
+}*/
+
+html, body {
+	font-family: Lato-Lig;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: white;
+}
+
+a { color: rgb(18, 148, 216);
+	text-decoration: none;
+}
+a:hover 	{ color: rgb(102, 203, 255); }
+a:visited 	{ color: gray; }
+a:active 	{ color: #ddd; }
+
+@font-face {
+    font-family: Lato-Lig;
+    src: url(/res/Lato-Lig.ttf);
 }
 
 .alignText_C {
 	text-align: center;
+}
+
+.centerVert {
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
 }
 
 .app {
@@ -27,4 +53,58 @@
 
 .gridItem {
 	position: absolute;
+}
+
+.menuBar {
+	/*background-color: #f5f5f5;
+	border-bottom: 1px solid;
+	border-color: #ddd;*/
+	margin: 0px;
+}
+
+.menuDot {
+	border-radius: 50%;
+	background-color: lightgrey;
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);*/
+	transition: background 0.15s cubic-bezier(.55,0,.4,1) 0s;
+}
+
+.menuDot:hover {
+	background-color: white;
+}
+
+.menuDotCaption {
+	position: absolute;
+	margin-top: 57px;
+	color: black;
+	opacity: 0;
+	transition: opacity 0.15s cubic-bezier(.55,0,.4,1) 0s;
+}
+
+.menuDot:hover .menuDotCaption {
+	opacity:1;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	padding:10px;
+}
+#content {
+	padding:10px;
+	padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
