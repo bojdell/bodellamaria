@@ -31,7 +31,7 @@ a:active 	{ color: #ddd; }
 
 @font-face {
     font-family: Lato-Lig;
-    src: url(/res/Lato-Lig.ttf);
+    src: url("/res/Lato-Lig.ttf");
 }
 
 .alignText_C {
