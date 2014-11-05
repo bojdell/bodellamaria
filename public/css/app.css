@@ -26,7 +26,7 @@ a { color: rgb(18, 148, 216);
 	text-decoration: none;
 }
 a:hover 	{ color: rgb(102, 203, 255); }
-a:visited 	{ color: gray; }
+/*a:visited 	{ color: gray; }*/
 a:active 	{ color: #ddd; }
 
 @font-face {
