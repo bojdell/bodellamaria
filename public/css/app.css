@@ -110,6 +110,10 @@ a:active 	{ color: #ddd; }
 	left:0;
 }
 
+.smallText {
+	font-size: 12pt;
+}
+
 .bodyText {
 	margin: 0px 0px 30px 30px;
 }
