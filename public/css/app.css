@@ -16,10 +16,10 @@
 html, body {
 	font-family: Lato-Lig;
 	font-size: 16pt;
+	color: white;
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-color: white;
 }
 
 a { color: rgb(18, 148, 216);
@@ -63,51 +63,79 @@ a:active 	{ color: #ddd; }
 	margin: 0px;
 }
 
-.menuDot {
+/*.menuDotWrapper {
+	padding: 0.8em;
+	margin: 0.2em;
+	border-radius: .4em;
+	background-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+	transition: background-color 0.15s cubic-bezier(.55,0,.4,1) 0s;
+}*/
+/*
+.menuDotWrapper:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/*.menuDot {
 	border-radius: 50%;
 	background-color: lightgrey;
-	height: 40px;
-	width: 40px;
-	padding: 10px;
-	margin: 10px;
-	display: inline-block;
-	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);*/
-	transition: background 0.15s cubic-bezier(.55,0,.4,1) 0s;
-}
-
-.menuDot:hover {
-	background-color: white;
-}
-
-.menuDotCaption {
-	position: absolute;
-	margin-top: 57px;
-	color: black;
-	opacity: 0;
+	height: .2em;
+	width: .2em;
+	padding: .2em;
+	margin: .2em;
+	opacity: .8;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 	transition: opacity 0.15s cubic-bezier(.55,0,.4,1) 0s;
 }
 
-.menuDot:hover .menuDotCaption {
-	opacity:1;
+.menuDotWrapper:hover .menuDot {
+	opacity: 1;
+}*/
+
+.menuItem {
+	padding-top: .2em;
+	padding-bottom: .2em;
+	padding-left: .4em;
+	padding-right: .35em;
+	position: relative;
+	color: white;
+	opacity: .75;
+	font-size: 1em;
+	display: inline-block;
+	transition: opacity 0.15s cubic-bezier(.55,0,.4,1) 0s;
 }
+
+.menuItem:hover {
+	opacity: 1;
+}
+
+/*.menuDotWrapper:hover .menuDotCaption {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+}*/
 
 #wrapper {
 	min-height:100%;
 	position:relative;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 #header {
 	padding:10px;
+	background-color: rgba(0, 0, 0, 1);
 }
 #content {
 	padding:10px;
-	padding-bottom:80px;   /* Height of the footer element */
+	padding-bottom: 3.0em;   /* Height of the footer element */
 }
 #footer {
 	width:100%;
-	height:80px;
+	height:3.0em;
 	position:absolute;
 	bottom:0;
 	left:0;
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, .75);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 .smallText {
@@ -115,5 +143,30 @@ a:active 	{ color: #ddd; }
 }
 
 .bodyText {
-	margin: 0px 0px 30px 30px;
+	margin: 1.0em 1.0em 0em 1.0em;
+}
+
+.bgWrapper {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+	position: absolute;
+	overflow: hidden;
+}
+
+.scEmbed {
+	margin: 1.2em;
+}
+
+/*<video autoplay loop id="bgvid"><source src="/res/sunset.mp4" type="video/mp4"></video>*/
+#bg {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	background: url("/res/mountains2_m.jpg") no-repeat;
+	background-size: cover;
 }
