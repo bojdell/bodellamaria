@@ -16,52 +16,33 @@
     </script>
 </head>
 <body>
-<video autoplay loop id="bgvid">
-    <source src="/res/sunset.mp4" type="video/mp4">
-</video>
 <div id="wrapper">
     <div id="header">
     <nav class="menuBar">
-        <a href="/"><div class="menuDotWrapper">
-            <div class="menuDot"></div>
-            <div class="menuDotCaption alignText_C">Home</div>
-        </div></a>
-        <a href="/about"><div class="menuDotWrapper">
-            <div class="menuDot"></div>
-            <div class="menuDotCaption alignText_C">About Me</div>
-        </div></a>
-        <a href="/projects"><div class="menuDotWrapper">
-            <div class="menuDot"></div>
-            <div class="menuDotCaption alignText_C">Projects</div>
-        </div></a>
-        <a href="/music"><div class="menuDotWrapper">
-            <div class="menuDot"></div>
-            <div class="menuDotCaption alignText_C">Music</div>
-        </div></a>
-        <a href="/quotes"><div class="menuDotWrapper">
-            <div class="menuDot"></div>
-            <span class="menuDotCaption alignText_C">Favorite<br>Quotes</span>
-        </div></a>
+        <a href="/"><div class="menuItem alignText_C">Home</div></a>
+        <a href="/about"><div class="menuItem alignText_C">About Me</div></a>
+        <a href="/projects"><div class="menuItem alignText_C">Projects</div></a>
+        <a href="/music"><div class="menuItem alignText_C">Music</div></a>
+        <a href="/quotes"><div class="menuItem alignText_C">Quotes</div></a>
     </nav>
     </div>
 
     <div id="content">
-    <div class="app" ng-app="">
-        <div ng-controller="QODController">
-            <h1>Home</h1>
-            <p><br>More details coming soon! In the meantime you can learn more about me <a href="about">here</a></p><br>
-        	<div class="panel panel-default">
-                <div class="panel-heading"><h2 class="panel-title">Quote of the Day</h2></div>
-                <div class="panel-body">"{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a></div>
-        	</div>
+    <div class="bgWrapper"><div id="bg"></div></div>
+        <div class="app" ng-app="">
+            <div ng-controller="QODController">
+                <h1>Home</h1>
+            	<div class="panel panel-default">
+                    <div class="panel-heading"><h2 class="panel-title">Quote</h2></div>
+                    <div class="panel-body">"{{ quote }}" - <a ng-href="{{ source }}"> {{ person }}</a></div>
+            	</div>
+            </div>
         </div>
-    </div>
     </div>
 
     <div id="footer">
         <div class="alignText_C centerVert">
-            &copy; 2014 Bodecker DellaMaria<br>
-            <span class="smallText">Check out the site source on <a href="https://github.com/bojdell/bodellamaria">GitHub</a>!</span>
+            &copy; 2014 Bodecker DellaMaria
         </div>
     </div>
 </div>
