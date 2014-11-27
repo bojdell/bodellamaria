@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>About Me - Bodecker DellaMaria</title>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47185048-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <!--#include virtual="header.inc" -->
+
+    <div id="content" class="bodyText">
+    <div class="bgWrapper"><div id="bg"></div></div>
+        <h1>About Me</h1>
+        <p><br>CompE <a href="https://twitter.com/ECEIllinois">@ECEIllinois</a>. Formerly <a href="https://twitter.com/Microsoft">@Microsoft</a>, <a href="https://twitter.com/Yahoo">@Yahoo</a>
+        </p>
+        <p>I'm passionate about technology, entrepreneurship, and music (among other things!). I love to travel, meet new people, and solve problems.</p>
+        <p>Shoot me a tweet if you wanna say hi!</p>
+        <p> - Bo
+        <br><a href="https://twitter.com/bojdell">@bojdell</a>
+        <br><a href="http://linkedin.com/in/bodecker/">in/bodecker</a>
+        <br><a href="https://github.com/bojdell">GitHub</a>
+        <br><br>_________<br><a href="http://bodecker.me/resume">Resume</a>
+        </p>
+    </div>
+
+    <!--#include virtual="footer.inc" -->
+</div>
+</body>
+</html>

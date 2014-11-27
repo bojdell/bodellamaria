@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Favorite Quotes - Bodecker DellaMaria</title>
+  <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/app.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/quotes_controllers.js"></script>
+  <script src="js/cloudgrid.js"></script>
+  <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47185048-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <!--#include virtual="header.inc" -->
+
+    <div id="content" class="bodyText">
+        <div class="bgWrapper"><div id="bg"></div></div>
+        <h1>Favorite Quotes</h1>
+        <p>Below are some of my favorite quotes.
+        <br>
+        <div class="app" ng-app="quotesApp">
+        <div class="grid" ng-controller="QuotesCtrl">
+            <div class="panel panel-default gridItem" ng-repeat="quote in quotes" data-on-repeat data-grid-columns="{{  defaultColSize }}" data-grid-rows="{{ getRows(quote.text.length + quote.person.length + 5) }}">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Quote</h3>
+                </div>
+                <div class="panel-body">
+                    "{{ quote.text }}" - <a ng-href="{{ quote.source }}"> {{ quote.person }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--#include virtual="footer.inc" -->
+</div>
+</body>
+</html>
