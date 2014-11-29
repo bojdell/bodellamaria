@@ -19,7 +19,7 @@
     <!--#include virtual="header.inc" -->
 
     <div id="content" class="bodyText">
-    <div class="bgWrapper"><div id="bg"></div></div>
+    <div class="bgWrapper"><div id="bg_about" class="bg"></div></div>
         <h1>About Me</h1>
         <p><br>CompE <a href="https://twitter.com/ECEIllinois">@ECEIllinois</a>. Formerly <a href="https://twitter.com/Microsoft">@Microsoft</a>, <a href="https://twitter.com/Yahoo">@Yahoo</a>
         </p>

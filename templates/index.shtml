@@ -18,7 +18,7 @@
     <!--#include virtual="header.inc" -->
 
     <div id="content">
-    <div class="bgWrapper"><div id="bg"></div></div>
+    <div class="bgWrapper"><div id="bg_index" class="bg"></div></div>
         <div class="app" ng-app="">
             <div ng-controller="QODController">
                 <h1>Home</h1>

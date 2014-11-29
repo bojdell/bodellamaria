@@ -19,11 +19,16 @@
     <!--#include virtual="header.inc" -->
 
     <div id="content" class="bodyText">
-    <div class="bgWrapper"><div id="bg"></div></div>
+    <div class="bgWrapper"><div id="bg_projects" class="bg"></div></div>
         <h1>Projects</h1>
-        <p><br>Check me out on <a href="https://github.com/bojdell">GitHub</a>. More to come soon!
-        </p>
-        <p> - Bo</p>
+        <ul>
+            <li><a href="http://seattle.internproject.io/">The Seattle Intern Project</a></li>
+            <li><a href="https://github.com/bojdell/html-include">html-include Library</a></li>
+            <li><a href="https://github.com/bojdell/lodestar">Project Lodestar (GPS Compass Device)</a></li>
+            <li>Autonomous Arduino-powered car</li>
+            <li>Built set of 100W Dayton Audio cabinet speakers from scratch</li>
+            <li>Etc.</li>
+        </ul>
     </div>
 
     <!--#include virtual="footer.inc" -->

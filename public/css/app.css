@@ -22,10 +22,10 @@ html, body {
 	height: 100%;
 }
 
-a { color: rgb(18, 148, 216);
+a { color: rgb(143, 210, 245);
 	text-decoration: none;
 }
-a:hover 	{ color: rgb(102, 203, 255); }
+a:hover 	{ color: rgb(103, 180, 219); }
 /*a:visited 	{ color: gray; }*/
 a:active 	{ color: #ddd; }
 
@@ -161,12 +161,35 @@ a:active 	{ color: #ddd; }
 }
 
 /*<video autoplay loop id="bgvid"><source src="/res/sunset.mp4" type="video/mp4"></video>*/
-#bg {
+.bg {
 	position: absolute;
 	min-width: 100%;
 	min-height: 100%;
 	width: 100%;
 	height: auto;
+}
+
+#bg_index {
+	background: url("/res/Horizon.jpg") no-repeat;
+	background-size: cover;
+}
+
+#bg_about {
+	background: url("/res/sf_moon.jpg") no-repeat;
+	background-size: cover;
+}
+
+#bg_projects {
+	background: url("/res/outside_lands_paint.jpg") no-repeat;
+	background-size: cover;
+}
+
+#bg_music {
+	background: url("/res/Crevasse_m.jpg") no-repeat;
+	background-size: cover;
+}
+
+#bg_quotes {
 	background: url("/res/mountains2_m.jpg") no-repeat;
 	background-size: cover;
 }
