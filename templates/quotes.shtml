@@ -2,8 +2,7 @@
 <html>
 <head>
   <title>Favorite Quotes - Bodecker DellaMaria</title>
-  <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
-  <link rel="stylesheet" type="text/css" href="./css/app.css">
+  <!--#include virtual="head_shared.inc" -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
