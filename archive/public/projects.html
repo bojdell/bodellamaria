@@ -2,20 +2,24 @@
 <html>
     <head>
         <title>
-            Bodecker DellaMaria
+            Projects - Bodecker DellaMaria
         </title>
-        <link href="./css/app.css" rel="stylesheet" type="text/css">
-            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
-            </script>
-            <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        <link href="./css/app.css" rel="stylesheet" type="text/css"/>
+        <link href="/res/favicon.ico" rel="icon" type="image/x-icon"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                                ga('create', 'UA-47185048-2', 'auto');
+
+        
+        
+        
+        ga('create', 'UA-47185048-2', 'auto');
                                 ga('send', 'pageview');
-            </script>
-        </link>
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -48,31 +52,40 @@
                     </a>
                 </nav>
             </div>
-            <div id="content">
+            <div class="bodyText" id="content">
                 <div class="bgWrapper">
-                    <div class="bg" id="bg_index">
+                    <div class="bg" id="bg_projects">
                     </div>
                 </div>
-                <div class="app" ng-app="">
-                    <div ng-controller="QODController">
-                        <h1>
-                            Home
-                        </h1>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2 class="panel-title">
-                                    Quote
-                                </h2>
-                            </div>
-                            <div class="panel-body">
-                                "{{ quote }}" -
-                                <a ng-href="{{ source }}">
-                                    {{ person }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1>
+                    Projects
+                </h1>
+                <ul>
+                    <li>
+                        <a href="http://seattle.internproject.io/">
+                            The Seattle Intern Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bojdell/html-include">
+                            html-include Library
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bojdell/lodestar">
+                            Project Lodestar (GPS Compass Device)
+                        </a>
+                    </li>
+                    <li>
+                        Autonomous Arduino-powered car
+                    </li>
+                    <li>
+                        Built set of 100W Dayton Audio cabinet speakers from scratch
+                    </li>
+                    <li>
+                        Etc.
+                    </li>
+                </ul>
             </div>
             <div id="footer">
                 <div class="alignText_C centerVert">
@@ -80,7 +93,5 @@
                 </div>
             </div>
         </div>
-        <script src="js/index_controllers.js">
-        </script>
     </body>
 </html>
