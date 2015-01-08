@@ -25,20 +25,12 @@ var allowCrossDomain = function(req, res, next) {
 app.use(express.static(__dirname + '/public'));
 app.use(allowCrossDomain);
 
+app.get("/resume", function (req, res) {
+    res.redirect("https://docs.google.com/file/d/0B38ngwkw2QbKb1JyLXF4WnVmVUU");
+});
+
 app.get("/", function (req, res) {
     res.redirect("/index.html");
-});
-
-app.get("/about", function (req, res) {
-        res.redirect("/about.html");
-});
-
-app.get("/projects", function (req, res) {
-        res.redirect("/projects.html");
-});
-
-app.get("/music", function (req, res) {
-        res.redirect("/music.html");
 });
 
 app.get("/about", function (req, res) {
