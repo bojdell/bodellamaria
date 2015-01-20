@@ -1,3 +1,3 @@
 #bodecker.me - Jekyll Version
 
-Theme: Clean Blog, Jekyll version by [Start Bootstrap](http://startbootstrap.com/).
+Theme: [Clean Blog by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
