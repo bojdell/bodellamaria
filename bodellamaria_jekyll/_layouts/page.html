@@ -4,13 +4,14 @@ layout: default
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    {% if page.photo-caption %}
+    {% if page.photo-caption-title %}
         <div class="photo-caption">
             <div class="caption-msg">
-                {{ page.photo-caption }}
+                <span class="caption-title">{{ page.photo-caption-title }}: </span>
+                <span class="caption-body">{{ page.photo-caption-body }}</span>
             </div>
             <div class="caption-icon">
-                <i class="fa fa-camera"></i> Info
+                <span class="caption-title"><i class="fa fa-camera"></i> Info</span>
             </div>
         </div>
     {% endif %}
