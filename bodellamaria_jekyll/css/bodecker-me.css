@@ -6,14 +6,11 @@
 	position: absolute;
 	right: 5%;
 	bottom:10%;
-	font-size: 16px;
-	font-weight: 800;
-	letter-spacing: 1.33px;
 	z-index: 1;
 }
 
 .caption-icon {
-	padding: 0.3em 0.5em 0.33em 0.64em;
+	padding: 0.3em 0.5em 0.5em 0.65em;
 	background-color: white;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
@@ -23,6 +20,13 @@
 	display: inline;
 	cursor: pointer;
 	float: right;
+	/*transition: opacity 0.25s cubic-bezier(.55,0,.4,1) 0s;
+	transition: border-radius 0.25s cubic-bezier(.55,0,.4,1) 0s;*/
+}
+
+.caption-icon:active {
+	/*color: red;*/
+	opacity: 0.5;
 }
 
 .caption-msg {
@@ -34,12 +38,29 @@
 	border-bottom-right-radius: 0.0em;
 	border-bottom-left-radius: 0.5em;
 	cursor: pointer;
+	opacity: 0.9;
+	max-width: 11em;
+	/*transition: visibility 0.25s cubic-bezier(.55,0,.4,1) 0s;*/
 }
 
-.caption-icon:hover + .caption-msg {
+.caption-msg:active {
+	opacity: 0.75;
+}
+
+.caption-title {
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 1.33px;
+}
+
+.caption-body {
+	font-size: 16px;
+}
+
+/*.caption-icon:hover + .caption-msg {
 	opacity: 0.8;
 	visibility: visible;
-}
+}*/
 /*
 .caption-icon:hover .caption-msg {
 	visibility: visible;
