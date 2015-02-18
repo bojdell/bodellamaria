@@ -5,6 +5,8 @@ subtitle:   "One of the best weeks of my life"
 date:       2015-02-06 17:50:00
 author:     "Bo DellaMaria"
 header-img: "img/home-bg.jpg"
+photo-caption-title: "San Francisco, CA"
+photo-caption-body: "My home away from home."
 ---
 
 Recently, I participated in the UIUC Technology Entrepreneurship Center's Silicon Valley Workshop. I’ve been to the area many times, but this trip really opened my eyes to a side of the Bay I had never seen before. It was an incredible experience.
