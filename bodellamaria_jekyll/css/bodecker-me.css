@@ -7,10 +7,13 @@
 	right: 5%;
 	bottom:10%;
 	z-index: 1;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 .caption-icon {
-	padding: 0.3em 0.5em 0.5em 0.65em;
+	/*padding: 0.3em 0.5em 0.5em 0.65em;*/
+	padding: 0.3em 0.5em 0.33em 0.64em;
 	background-color: white;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
@@ -20,6 +23,10 @@
 	display: inline;
 	cursor: pointer;
 	float: right;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 1.33px;
+
 	/*transition: opacity 0.25s cubic-bezier(.55,0,.4,1) 0s;
 	transition: border-radius 0.25s cubic-bezier(.55,0,.4,1) 0s;*/
 }
@@ -31,16 +38,20 @@
 
 .caption-msg {
 	visibility: hidden;
-	padding: 0.3em 0.5em 0.33em 0.64em;
 	background-color: white;
+	cursor: pointer;
+	opacity: 0.9;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom-width: 1px;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.0em;
 	border-bottom-left-radius: 0.5em;
-	cursor: pointer;
-	opacity: 0.9;
-	max-width: 11em;
-	/*transition: visibility 0.25s cubic-bezier(.55,0,.4,1) 0s;*/
+
 }
 
 .caption-msg:active {
@@ -48,13 +59,27 @@
 }
 
 .caption-title {
+	background-color: white;
 	font-size: 16px;
 	font-weight: 800;
 	letter-spacing: 1.33px;
+	padding-top: 0.35em;
+	padding-left: 0.65em;
+	padding-right: 0.6em;
+	padding-bottom: 0.2em;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
 }
 
 .caption-body {
+	background-color: white;
 	font-size: 16px;
+	max-width: 12em;
+	padding-left: 0.74em;
+	padding-right: 0.6em;
+	padding-bottom: 0.45em;
+	border-bottom-right-radius: 0.0em;
+	border-bottom-left-radius: 0.5em;
 }
 
 /*.caption-icon:hover + .caption-msg {
