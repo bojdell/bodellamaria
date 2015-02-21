@@ -4,13 +4,18 @@
 {% include head.html %}
 
 <body>
+	<div class="parallax">
+		<div class="header-img parallax-layer parallax-layer-back" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')"></div>
 
-    {% include nav.html %}
+		<div class="parallax-layer parallax-layer-front">
+	    {% include nav.html %}
 
-    {{ content }}
+	    {{ content }}
 
-    {% include footer.html %}
-
+	    {% include footer.html %}
+	    </div>
+		</div>
+	</div>
 </body>
 
 </html>
