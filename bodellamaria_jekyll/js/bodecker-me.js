@@ -12,7 +12,8 @@ var msg_css_visible = [
 var icon_css_visible = [
 	["border-top-right-radius", "0em"],
 	["border-top-left-radius","0em"],
-	["opacity","0.7"]
+	["opacity","1"],
+	["background-color", "rgba(0, 0, 0, 0.75)"]
 ];
 
 $(document).ready(function(){
