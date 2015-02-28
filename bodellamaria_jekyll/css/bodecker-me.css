@@ -31,7 +31,6 @@
 }
 
 .caption-icon:active {
-	/*color: red;*/
 	opacity: 0.5;
 }
 
@@ -117,7 +116,7 @@
 	transform-origin: top;
 }
 
-.content-bg {
+.content-bg, .footer-bg {
 	background-color: white;
 	margin-top: -50px;
 	padding-top: 50px;
