@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "A New Day"
+subtitle:   "My First Day at Workday"
+date:       2015-07-20 23:00:00
+author:     "Bo DellaMaria"
+header-img: "img/home-bg.jpg"
+photo-caption-title: "San Francisco, CA"
+photo-caption-body: "My home away from home."
+---
+
+Today officially marks my first day of work at [Workday](http://www.workday.com/)! I’ve been very eager for this day to come, and I couldn’t be more excited for this fantastic opportunity. Even though the path to get here was a bit rough (I’ll write a follow-up post about that), it has made today that much sweeter.
+
+Looking forward to learning, growing, and contributing lots in this new experience. Thanks to everyone who helped me get here.
+
+ \- Bo
