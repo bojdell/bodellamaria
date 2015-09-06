@@ -14,13 +14,13 @@ It was one of those days that just kind of catches you by surprise - you're not 
 
 The 3 coolest things that happened yesterday:
 
-1. The neverending happy hour.
+###1. The neverending happy hour.
 
-Since I hadn't slept much the night before, I was planning on going home after work and taking a nap, maybe just laying low for the night. But things were going so well at happy hour I just had a feeling this was one of those times you have to throw away whatever plan you had made and go with the flow. It was the right call.
+Since I was pretty tired, I was planning on going home after work and taking a nap, maybe just laying low for the night. But things were going so well at happy hour I just had a feeling this was one of those times you have to throw away whatever plan you had made and go with the flow. It was the right call.
 
-2. I realized the people I work with are even more badass than I thought (and trust me, I already thought they were *very* badass)
+###2. I realized the people I work with are even more badass than I thought (and trust me, I already thought they were *very* badass)
 
-Turns out, one of my friends from work, Ethan, who grew up in Champaign, IL (where I went to college), was one of the founding members of a startup called [One](http://whatis1.com/app/). This was such a crazy coincidence, because I had heard the co-founder Michael Callahan speak at a UIUC student conference (ECE Pulse) my freshman year in college and really enjoyed his talk. I also was very involved with entrepreneurship on campus, attending the [TEC Silicon Valley Workshop](http://tec.illinois.edu/experiences/silicon-valley) my senior year, which in past years has visited One's office. Had I gone on the trip a year earlier, I would have met my future coworker! There are a myriad of other connections that made this fact about Ethan extra awesome.
+Turns out, one of my friends from work, Ethan, who grew up in Champaign, IL (where I went to college), was one of the founding members of a startup called [One](http://whatis1.com/app/). This was such a crazy coincidence, because I had heard the co-founder Michael Callahan speak at a UIUC student conference ([ECE Pulse](http://pulse.ece.illinois.edu/)) my freshman year in college and really enjoyed his talk. I also was very involved with entrepreneurship on campus, attending the [TEC Silicon Valley Workshop](http://tec.illinois.edu/experiences/silicon-valley) my senior year, which in past years has visited One's office. Had I gone on the trip a year earlier, I would have met my future coworker! There are a myriad of other connections that made this fact about Ethan extra awesome.
 
 Later on, in the midst of this happy hour gone rogue I'm having a conversation with another friend from work - Alex Nisnevitch - when it comes out that he created this game at a hackathon. "Untrusted, it's called." he says. "Untrusted....", I'm thinking to myself, "Where have I heard this before...". As he starts to describe the premise of the game, my eyes get wide as I realize exactly what game he's talking about. The game that has [thousands of stars on Github](https://github.com/AlexNisnevich/untrusted), garnered [many upvotes on HackerNews](https://news.ycombinator.com/item?id=7547942), and was [incredibly fun to play](http://alexnisnevich.github.io/untrusted/). I immediately messaged my roommate Sid to see if he remembered the game, who confirmed that this was indeed as awesome as I thought it was.
 
@@ -28,7 +28,7 @@ And last, but definitely not least, towards the end of a family-style dinner at 
 
 So you see, I am damn lucky to be working with these people. And it's not only those three - literally everyone I've met in our SF office has such a unique and powerful story to tell. I hope that over time I can give them back something meaningful of my own.
 
-3. Friends on friends on friends
+###3. Friends on friends on friends
 
 As our time living in SF approaches 2 months, I've been reflecting a lot on everything that's happened to me and Sid. Amidst all the chaos and fun times, one thing seems quite clear: there's no way things would have gone nearly as smoothly without the help of our awesome friends. Some we knew before the move, some we met after, each going out of their way to make this transition infinitely better than it would have been if we were left to fend for ourselves. Deb gave us a home before we had a home and kickstarted our SF life with her insider tips and connections, Jeff & Najia pushed us to keep up the energy and make a trip to Tahoe within a few weeks of our move, not to mention all the people who were generous enough to help us in our quest for housing... We look forward to paying all this kindness forward.
 
