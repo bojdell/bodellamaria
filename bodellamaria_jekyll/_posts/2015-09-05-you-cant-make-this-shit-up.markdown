@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "You can't make this shit up"
+title:      "You can't make this sh*t up"
 date:       2015-09-05 12:00:00
 author:     "Bo DellaMaria"
 header-img: "img/home-bg.jpg"
