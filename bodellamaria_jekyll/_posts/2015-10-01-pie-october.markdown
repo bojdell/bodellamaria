@@ -19,14 +19,14 @@ Basically I picked out three medium-term goals for myself that I will be achievi
 
 I have never been a morning person, but I like the idea of getting up early and having a head start on the day. I don’t get enough sleep as it is, usually because I lose track of time in the evenings and end up staying awake too late. I think the best way to get better at waking up early is to go to bed early, so I’m going to try and go to bed “early” for the next month.
 
-My target bedtimes are: 9am on weeknights (Sunday - Thursday), 12am on weekends (Friday & Saturday). It might not seem early to some people, but for me that shifts my entire sleep cycle roughly a whole 2 hours earlier. As part of this effort to get to bed earlier, I will set an alarm on my phone daily for 30 minutes prior to my target bedtime to remind me to start getting ready. Also, I have purchased an alarm clock that I can use to wake up, so I will leave all other electronics out of my bedroom. I will log my bedtimes each night to see how I am doing.
+My target bedtimes are: 9pm on weeknights (Sunday - Thursday), 12am on weekends (Friday & Saturday). It might not seem early to some people, but for me that shifts my entire sleep cycle roughly a whole 2 hours earlier. As part of this effort to get to bed earlier, I will set an alarm on my phone daily for 30 minutes prior to my target bedtime to remind me to start getting ready. Also, I have purchased an alarm clock that I can use to wake up, so I will leave all other electronics out of my bedroom. I will log my bedtimes each night to see how I am doing.
 **Output: Sleep log of bedtimes.**
 
 ##Creative
 
 ####Record 1 song each week
 
-I used to perform music all the time - playing in piano recitals, soloing in jazz band, getting up on stage at talent shows. But in college, this habit of putting myself out there went away, and I barely ever played in front of other people. It’s not just about the music (although I do love music) - it’s more about pushing myself to remember what it’s like to perform, as well as conquer the fear of making mistakes in front of others (and minimize them through practice). I’m not an expert musician, heck, I may not be any good after all these years, but I think a lot of the skills honed in this pursuit can translate to other areas of life.
+I used to perform music all the time - playing in piano recitals, soloing in jazz band, getting up on stage at talent shows. But in college, this habit of putting myself out there went away, and I barely ever played in front of other people. It’s not just about the music (although I do love music) - it’s more about pushing myself to remember what it’s like to perform, as well as conquer the fear of making mistakes in front of others (and minimizing them through practice). I’m not an expert musician, heck, I may not be any good after all these years, but I think a lot of the skills honed in this pursuit can translate to other areas of life.
 **Output: 1 video each week (4 by the end of the month), posted on [YouTube](https://www.youtube.com/channel/UCM_doOFPwfZV04n7ZIip2aA).**
 
 ##Intellectual
