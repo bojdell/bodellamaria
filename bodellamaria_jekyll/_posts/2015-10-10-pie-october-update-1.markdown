@@ -15,9 +15,9 @@ One-third done already... The time is flying by! Here's a quick update on how th
 
 I will be adding stakes to further motivate me to achieve my goals. For each of the scenarios below I will be donating $5 to [Donals Trump’s presidential campaign](https://www.donaldjtrump.com/):
 
- - every night I miss a bedtime
- - each week without recording a song
- - every chapter not read at the end of the month
+ - Every night I miss a bedtime
+ - Each week I don't record a song
+ - Every chapter not read at the end of the month
 
 If I have to donate over $20, these funds will be be applied towards a [tshirt](http://libertymaniacs.com/products/donald-trump-we-shall-overcomb-shirts?variant=3809136513) I must wear to work on Monday 11/2/15. If I exceed the cost of the shirt, all additional funds will be donated directly to Mr. Trump's campaign. Why Trump, you ask? I am not very politically active, but I'm not sure he is what you would call "presidential material". Plus I know local San Franciscans will give me a lot of crap for "supporting" him. Special thanks to Pooja for helping me [brainstorm](http://bodecker.me/2015/10/01/pie-october/#comment-2290392440) such aggresive stakes!
 
