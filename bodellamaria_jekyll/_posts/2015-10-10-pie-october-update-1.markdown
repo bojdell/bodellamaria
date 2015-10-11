@@ -13,7 +13,7 @@ One-third done already... The time is flying by! Here's a quick update on how th
 
 ##Stakes
 
-I will be adding stakes to further motivate me to achieve my goals. For each of the scenarios below I will be donating $5 to [Donals Trump’s presidential campaign](https://www.donaldjtrump.com/):
+I will be adding stakes to further motivate me to achieve my goals. For each of the scenarios below I will be donating $5 to [Donald Trump’s presidential campaign](https://www.donaldjtrump.com/):
 
  - Every night I miss a bedtime
  - Each week I don't record a song
