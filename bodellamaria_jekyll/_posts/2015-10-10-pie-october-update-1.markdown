@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "PIE: Update #1"
-subtitle:   "33% Into My Month-long Personal Challenge"
-date:       2015-10-20 11:00:00
+subtitle:   "1/3 Into My Month-long Personal Challenge"
+date:       2015-10-10 11:00:00
 author:     "Bo DellaMaria"
 header-img: "img/home-bg.jpg"
 photo-caption-title: "San Francisco, CA"
