@@ -65,6 +65,8 @@ First up, here are some of the most important realizations I will take away from
 
 Fortunately (or should I say UNfortunately…), $26 ($15 + $11) is roughly the price of an [official shirt](http://shop.donaldjtrump.com/product-p/dtc-ocmt-wh.htm) + $7.50 shipping on Mr. Trump’s campaign webstore. So, when that arrives (along with hopefully not too much negative attention drawn to my apartment), I will be wearing it to work to face the consequences of failing to achieve my goals perfectly.
 
+![*Shudders*](/img/trump-confirmation.png)
+
 Do I recommend this exercise to others? Absolutely. Will I try another PIE sometime in the future? Almost certainly. Until then? Check out [Pooja](https://poojabroad.wordpress.com/2015/11/01/a-slice-of-pie/) and [Sid](http://www.sidsethupathi.com/project-for-individual-excellence/)'s projects.
 
 Thanks for reading this far! I'm really grateful for all the support over the past month. Please drop me a note if you have any exciting PIE adventures of your own!
