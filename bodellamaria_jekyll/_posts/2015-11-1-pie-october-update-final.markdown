@@ -13,11 +13,11 @@ photo-caption-body: "My home away from home."
 
 Novermber 1st, the first day I don’t have to go to bed by 9pm, record a song by the end of the week, or worry that I'm not reading enough about programming. Not gonna lie, I was a bit nervous starting off, but in the end, it was all worth it.
 
-Overall, it has been a rewarding and memorable experience to participate in my PIE. I’d like to give a massive thank you to all the people who encouraged and inspired me to take on the challenge this month. It really would not have been possible without you all.
+I’d like to give a massive thank you to all the people who encouraged and inspired me to take on the challenge this month. It really would not have been possible without you all!
 
 For those who are interested, my two good friends [Sid](http://www.sidsethupathi.com/project-for-individual-excellence/) and [Pooja](https://poojabroad.wordpress.com/2015/11/01/a-slice-of-pie/) are galavanting off on PIEs of their very own starting today. Check em out and cheer them along on their journeys!
 
-How’d my PIE end up, you ask? Let’s find out.
+How’d my [PIE](2015/10/01/pie-october/) end up, you ask? Let’s find out.
 
 ##Lessons Learned
 
@@ -60,7 +60,7 @@ First up, here are some of the most important realizations I will take away from
  - **Original Goal:** Read 3 technical books this month
  - **Performance:** Almost finished FP in Scala (12/15 chapters), halfway done with ES: The Definitive Guide (3/8 sections), and The Elements of Scrum (2/3 parts).
  - **Desired Outcome:** A deeper understanding of technologies we use at work.
- - **Actual Outcome:** I was reminded how important it is to pair theory with practice. For the first two thirds of October I pushed myself to churn through my books (not “rushing”, but not reading with time to “stop and smell the flowers” either). I attempted to correct my course during my 2nd PIE update, but it was too late. The end of the month was too busy between work and family life (and getting sick), that I didn’t have time to finish the exercises for the reading I was doing. Disclaimer: I am going to adjust my pay scale so I don’t hit the “contribution limit” on Trump’s campaign. I will weight each book based on its “difficulty” I determined at the start of the PIE - $15 for FP in Scala, $10 for ESTDG, and $5 for TOS. These will then be multiplied by the remaining sections/chapters I still need to complete in each book.
+ - **Actual Outcome:** I was reminded how important it is to pair theory with practice. For the first two thirds of October I pushed myself to churn through my books (not “rushing”, but not reading with time to “stop and smell the flowers” either). I attempted to correct my course during my 2nd PIE update, but it was too late. The end of the month was too busy between work and family life (and getting sick), that I didn’t have time to finish the exercises for the reading I was doing. Disclaimer: I am going to adjust my pay scale so I don’t hit the contribution limit on Trump’s campaign. I will weight each book based on the difficulty I mentioned [at the start of the PIE](2015/10/01/pie-october/) - $15 for FP in Scala, $10 for ESTDG, and $5 for TOS. These will then be multiplied by the remaining sections/chapters I still need to complete in each book.
  - **Amount Owed to Trump:** ($15 * 3/15) + ($10 * 5/8) + ($5 * 1/3) = $11
 
 Fortunately (or should I say UNfortunately…), $26 ($15 + $11) is roughly the price of an [official shirt](http://shop.donaldjtrump.com/product-p/dtc-ocmt-wh.htm) + $7.50 shipping on Mr. Trump’s campaign webstore. So, when that arrives (along with hopefully not too much negative attention drawn to my apartment), I will be wearing it to work to face the consequences of failing to achieve my goals perfectly.
