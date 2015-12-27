@@ -72,4 +72,5 @@ Do I recommend this exercise to others? Absolutely. Will I try another PIE somet
 Thanks for reading this far! I'm really grateful for all the support over the past month. Please drop me a note if you have any exciting PIE adventures of your own!
 
 Edit: I wore the shirt to work...
-![*Shudders*](/img/trump-at-work.png)
+
+![*Shudders*](/img/trump-at-work.jpg)
