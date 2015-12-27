@@ -70,3 +70,6 @@ Fortunately (or should I say UNfortunately…), $26 ($15 + $11) is roughly the p
 Do I recommend this exercise to others? Absolutely. Will I try another PIE sometime in the future? Almost certainly. Until then? Check out [Pooja](https://poojabroad.wordpress.com/2015/11/01/a-slice-of-pie/) and [Sid](http://www.sidsethupathi.com/project-for-individual-excellence/)'s projects.
 
 Thanks for reading this far! I'm really grateful for all the support over the past month. Please drop me a note if you have any exciting PIE adventures of your own!
+
+Edit: I wore the shirt to work...
+![*Shudders*](/img/trump-at-work.png)
